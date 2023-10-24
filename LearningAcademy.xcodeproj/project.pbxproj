@@ -11,6 +11,16 @@
 		CD3F6F222AE7B84E00F11ECB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3F6F212AE7B84E00F11ECB /* ContentView.swift */; };
 		CD3F6F242AE7B85300F11ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3F6F232AE7B85300F11ECB /* Assets.xcassets */; };
 		CD3F6F272AE7B85300F11ECB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3F6F262AE7B85300F11ECB /* Preview Assets.xcassets */; };
+		CD3F6F2F2AE7B96F00F11ECB /* UserStaticData.json in Resources */ = {isa = PBXBuildFile; fileRef = CD3F6F2E2AE7B96F00F11ECB /* UserStaticData.json */; };
+		CD3F6F312AE7B9DE00F11ECB /* SingleUserData.json in Resources */ = {isa = PBXBuildFile; fileRef = CD3F6F302AE7B9DE00F11ECB /* SingleUserData.json */; };
+		CD3F6F332AE7BC8800F11ECB /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3F6F322AE7BC8800F11ECB /* Symbols.swift */; };
+		CD3F6F362AE7BD0500F11ECB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3F6F352AE7BD0500F11ECB /* Theme.swift */; };
+		CD3F6F3A2AE7C09500F11ECB /* View+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3F6F392AE7C09500F11ECB /* View+Navigation.swift */; };
+		CD3F6F3F2AE7C20500F11ECB /* UsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3F6F3E2AE7C20500F11ECB /* UsersResponse.swift */; };
+		CD3F6F422AE7C2C800F11ECB /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3F6F412AE7C2C800F11ECB /* Models.swift */; };
+		CD3F6F452AE7C4BC00F11ECB /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3F6F442AE7C4BC00F11ECB /* UserViewModel.swift */; };
+		CD3F6F482AE7C98000F11ECB /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3F6F472AE7C98000F11ECB /* Endpoint.swift */; };
+		CD3F6F4A2AE7CF2600F11ECB /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3F6F492AE7CF2600F11ECB /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		CD3F6F212AE7B84E00F11ECB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD3F6F232AE7B85300F11ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD3F6F262AE7B85300F11ECB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD3F6F2E2AE7B96F00F11ECB /* UserStaticData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UserStaticData.json; sourceTree = "<group>"; };
+		CD3F6F302AE7B9DE00F11ECB /* SingleUserData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SingleUserData.json; sourceTree = "<group>"; };
+		CD3F6F322AE7BC8800F11ECB /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
+		CD3F6F352AE7BD0500F11ECB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CD3F6F392AE7C09500F11ECB /* View+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Navigation.swift"; sourceTree = "<group>"; };
+		CD3F6F3E2AE7C20500F11ECB /* UsersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersResponse.swift; sourceTree = "<group>"; };
+		CD3F6F412AE7C2C800F11ECB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		CD3F6F442AE7C4BC00F11ECB /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		CD3F6F472AE7C98000F11ECB /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		CD3F6F492AE7CF2600F11ECB /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,11 @@
 		CD3F6F1E2AE7B84E00F11ECB /* LearningAcademy */ = {
 			isa = PBXGroup;
 			children = (
+				CD3F6F3B2AE7C1AA00F11ECB /* Features */,
+				CD3F6F372AE7C05B00F11ECB /* Base */,
 				CD3F6F1F2AE7B84E00F11ECB /* LearningAcademyApp.swift */,
 				CD3F6F212AE7B84E00F11ECB /* ContentView.swift */,
+				CD3F6F2D2AE7B92D00F11ECB /* Resources */,
 				CD3F6F232AE7B85300F11ECB /* Assets.xcassets */,
 				CD3F6F252AE7B85300F11ECB /* Preview Content */,
 			);
@@ -65,6 +88,93 @@
 				CD3F6F262AE7B85300F11ECB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD3F6F2D2AE7B92D00F11ECB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F6F342AE7BC9000F11ECB /* JSON */,
+				CD3F6F322AE7BC8800F11ECB /* Symbols.swift */,
+				CD3F6F352AE7BD0500F11ECB /* Theme.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CD3F6F342AE7BC9000F11ECB /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F6F2E2AE7B96F00F11ECB /* UserStaticData.json */,
+				CD3F6F302AE7B9DE00F11ECB /* SingleUserData.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		CD3F6F372AE7C05B00F11ECB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F6F462AE7C96500F11ECB /* API */,
+				CD3F6F402AE7C2B400F11ECB /* Model */,
+				CD3F6F382AE7C07000F11ECB /* Extensions */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CD3F6F382AE7C07000F11ECB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F6F392AE7C09500F11ECB /* View+Navigation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CD3F6F3B2AE7C1AA00F11ECB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F6F3C2AE7C1B200F11ECB /* User */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CD3F6F3C2AE7C1B200F11ECB /* User */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F6F432AE7C48500F11ECB /* View Models */,
+				CD3F6F3D2AE7C1E900F11ECB /* Model */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		CD3F6F3D2AE7C1E900F11ECB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F6F3E2AE7C20500F11ECB /* UsersResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD3F6F402AE7C2B400F11ECB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F6F412AE7C2C800F11ECB /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD3F6F432AE7C48500F11ECB /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F6F442AE7C4BC00F11ECB /* UserViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		CD3F6F462AE7C96500F11ECB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F6F472AE7C98000F11ECB /* Endpoint.swift */,
+				CD3F6F492AE7CF2600F11ECB /* NetworkingManager.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +237,8 @@
 			files = (
 				CD3F6F272AE7B85300F11ECB /* Preview Assets.xcassets in Resources */,
 				CD3F6F242AE7B85300F11ECB /* Assets.xcassets in Resources */,
+				CD3F6F312AE7B9DE00F11ECB /* SingleUserData.json in Resources */,
+				CD3F6F2F2AE7B96F00F11ECB /* UserStaticData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +249,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3F6F332AE7BC8800F11ECB /* Symbols.swift in Sources */,
+				CD3F6F482AE7C98000F11ECB /* Endpoint.swift in Sources */,
+				CD3F6F452AE7C4BC00F11ECB /* UserViewModel.swift in Sources */,
+				CD3F6F4A2AE7CF2600F11ECB /* NetworkingManager.swift in Sources */,
+				CD3F6F362AE7BD0500F11ECB /* Theme.swift in Sources */,
+				CD3F6F3A2AE7C09500F11ECB /* View+Navigation.swift in Sources */,
 				CD3F6F222AE7B84E00F11ECB /* ContentView.swift in Sources */,
 				CD3F6F202AE7B84E00F11ECB /* LearningAcademyApp.swift in Sources */,
+				CD3F6F3F2AE7C20500F11ECB /* UsersResponse.swift in Sources */,
+				CD3F6F422AE7C2C800F11ECB /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

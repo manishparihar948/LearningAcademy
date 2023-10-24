@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "message": "fetched sample user whoose id is 11",
+  "user": {
+    "id": 11,
+    "gender": "male",
+    "date_of_birth": "1989-12-10T00:00:00",
+    "job": "Designer, ceramics/pottery",
+    "city": "Russellside",
+    "zipcode": "58191",
+    "latitude": 56.07559,
+    "profile_picture": "https://api.slingacademy.com/public/sample-users/11.png",
+    "first_name": "Samuel",
+    "last_name": "Miller",
+    "email": "samuel.miller.11@slingacademy.com",
+    "phone": "(717)544-7298x91210",
+    "street": "831 Bradshaw Mount Apt. 294",
+    "state": "Colorado",
+    "country": "Martinique",
+    "longitude": -149.051136
+  }
+}
